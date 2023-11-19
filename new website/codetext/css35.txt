@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <select name="dropdown" id="" style="font-size: 40px;">
+        <option value="txt1">Dropdown text</option>
+        <option value="txt1">first</option>
+        <option value="txt1">second</option>
+        <option value="txt1">third</option>
+        <option value="txt1">fourth</option>
+        <option value="txt1">fifth</option>
+    </select>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<html lang="en">
+<head><link rel="stylesheet" href="first.css">
+   <style>
+       body{
+           
+           background: linear-gradient(90deg, rgba(255,208,65,1) 21%, rgba(244,255,47,1) 100%);
+       }
+   </style>
+</head>
+
+<body>
+    <header>
+        <img src="../images/logoo.jpg" height="100"width="120" class="logo" >
+        JUST CODE.COM
+    </header>
+    <nav style="background-color: darkblue;">
+      <b>  <a href="index.html">HOME</a>
+        <a href="about.html" >ABOUT US</a>
+        <a href="contact.html">CONTACT US</a>
+        <a href="program.html">PROGRAMS</a>
+        <a href="dbms.html">D.B.M.S</a></b>
+    </nav><style>
+        
+    </style>    
+    <b><p style="font-size: 25px;">SQL Constraints</p></b>
+    Constraints are the rules that we can apply on the type of data in a table. That is, we can specify the limit on the type of data that can be stored in a particular column in a table using constraints.<br><br> 
+
+The available constraints in SQL are: 
+
+    
+    <br><br>
+
+    <b style="font-size:20px ;">1.Not null</b><br><br>
+    This constraint tells that we cannot store a null value in a column. That is, if a column is specified as NOT NULL then we will not be able to store null in this particular column any more.
+<br><br>
+    <b style="font-size:20px ;">Syntax:</b><br><br>
+    CREATE TABLE sample_table
+(<br>
+column1 data_type(size) constraint_name,<br>
+column2 data_type(size) Not null,
+....
+);
+     <br><br>
+    <b style="font-size:20px ;">Example:</b><br>
+    <img src="../images/Screenshot (98).png" width="500" height="290" ><br><a href="https://livesql.oracle.com/apex/f?p=590:1000"><input type="button" value="Try it yourself->" style="background-color: blue; color: aliceblue;" ></a><br>
+    
+    
+    <b style="font-size:20px ;">2.Unique</b><br><br>
+    
+    This constraint when specified with a column, tells that all the values in the column must be unique. That is, the values in any row of a column must not be repeated.
+    <br><br><b style="font-size:20px ;">Syntax:</b><br><br>
+    CREATE TABLE sample_table
+    (<br>
+    column1 data_type(size) constraint_name,<br>
+    column2 data_type(size) Unique,
+    ....
+    );     <br><br>
+    <b style="font-size:20px ;">Example:</b><br>
+    <img src="../images/Screenshot (99).png" width="500" height="290" ><br><a href="https://livesql.oracle.com/apex/f?p=590:1000"><input type="button" value="Try it yourself->" style="background-color: blue; color: aliceblue;" ></a><br>
+
+    
+    <b style="font-size:20px ;">3.Primary key</b><br><br>
+    A primary key is a field which can uniquely identify each row in a table. And this constraint is used to specify a field in a table as primary key.
+    <br><br>
+    <b style="font-size:20px ;">Syntax:</b><br><br>
+    CREATE TABLE sample_table
+    (<br>
+    column1 data_type(size) constraint_name,<br>
+    column2 data_type(size) constraint_name,<br>
+    primary key(column name);
+    ....
+    );   <br><br>
+    <b style="font-size:20px ;">Example:</b><br>
+    <img src="../images/Screenshot (100).png" width="500" height="290" ><br><a href="https://livesql.oracle.com/apex/f?p=590:1000"><input type="button" value="Try it yourself->" style="background-color: blue; color: aliceblue;" ></a><br>
+
+    <b style="font-size:20px ;">4.Foreign key</b><br><br>
+    A Foreign key is a field which can uniquely identify each row in a another table. And this constraint is used to specify a field as Foreign key.
+    <br><br> <b style="font-size:20px ;">Syntax:</b><br><br>
+    CREATE TABLE sample_table
+    (<br>
+    column1 data_type(size) constraint_name,<br>
+    column2 data_type(size) foreign key references sample_table2(primary_column),
+    ....
+    );     <br><br>
+    <b style="font-size:20px ;">Example:</b><br>
+    <img src="../images/Screenshot (101).png" width="500" height="290" ><br><a href="https://livesql.oracle.com/apex/f?p=590:1000"><input type="button" value="Try it yourself->" style="background-color: blue; color: aliceblue;" ></a><br>
+
+    <b style="font-size:20px ;">5.Check</b><br><br>
+    This constraint helps to validate the values of a column to meet a particular condition. That is, it helps to ensure that the value stored in a column meets a specific condition.
+    <br><br><b style="font-size:20px ;">Syntax:</b><br><br>
+    CREATE TABLE sample_table
+    (<br>
+    column1 data_type(size) constraint_name,<br>
+    column2 data_type(size) check(condition),
+    ....
+    );     <br><br>
+    <b style="font-size:20px ;">Example:</b><br>
+    <img src="../images/Screenshot (103).png" width="500" height="290" ><br><a href="https://livesql.oracle.com/apex/f?p=590:1000"><input type="button" value="Try it yourself->" style="background-color: blue; color: aliceblue;" ></a><br>
+
+    <b style="font-size:20px ;">6.Default</b><br><br>
+    This constraint specifies a default value for the column when no value is specified by the user.
+    <br><br><b style="font-size:20px ;">Syntax:</b><br><br>
+    CREATE TABLE sample_table
+    (<br>
+    column1 data_type(size) constraint_name,<br>
+    column2 data_type(size) Default 'xyz',
+    ....
+    );     <br><br>
+    <b style="font-size:20px ;">Example:</b><br>
+    <img src="../images/Screenshot (104).png" width="500" height="290" ><br><a href="https://livesql.oracle.com/apex/f?p=590:1000"><input type="button" value="Try it yourself->" style="background-color: blue; color: aliceblue;" ></a><br>

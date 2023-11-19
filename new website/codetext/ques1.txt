@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ques_js1</title>
+</head>
+<body>
+    Temperature in Celcius:
+    <input type="number"  id="tempC"><br><br>
+    <button onclick="convert()">Convert</button><br><br>
+    Temperature in Farenheit:
+    <input type="text" id="tempF">
+    <script>
+        function convert(){
+        var x=parseInt(document.getElementById("tempC").value);
+        var y=parseInt(document.getElementById("tempF").value);
+        document.getElementById("tempF").value=(x*(9/5))+32;
+        }
+    </script>
+</body>
+</html>

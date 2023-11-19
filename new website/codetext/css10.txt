@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body><br><br><br><br>
+    <header style="background-color: red; color: aliceblue; font-size: 20px;width: 61%; font-weight: 100;padding: 10px; padding-left: 60px; padding-right: 60px; margin-left: 20px;" >Shop early for the best selection of holiday favrouites.Shop Now ></header>
+</body>
+</html>

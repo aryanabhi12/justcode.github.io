@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ques_js6</title>
+    
+</head>
+<body>Number1:
+    <input type="number" id="num1"><br><br>
+    Number2:
+    <input type="number" id="num2"><br><br>
+    <button onclick="sum()">
+        Result
+    </button>
+</body>
+</html>
+<script>
+    function sum(){
+        var x=parseInt(document.getElementById("num1").value);
+        var y=parseInt(document.getElementById("num2").value);
+        if(x==y){
+            document.writeln((x+y)*3);
+        }
+        else{
+            document.write(x+y);
+        }
+    }
+</script>

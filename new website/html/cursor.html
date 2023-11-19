@@ -1,0 +1,59 @@
+<html lang="en">
+<head><link rel="stylesheet" href="first.css">
+   <style>
+       body{
+           
+           background: linear-gradient(90deg, rgba(255,208,65,1) 21%, rgba(244,255,47,1) 100%);
+       }
+   </style>
+</head>
+
+<body>
+    <header>
+        <img src="../images/logoo.jpg" height="100"width="120" class="logo" >
+        JUST CODE.COM
+    </header>
+    <nav style="background-color: darkblue;">
+      <b>  <a href="index.html">HOME</a>
+        <a href="about.html" >ABOUT US</a>
+        <a href="contact.html">CONTACT US</a>
+        <a href="program.html">PROGRAMS</a>
+        <a href="dbms.html">D.B.M.S</a></b>
+    </nav><style>
+        
+    </style>    
+    <b><p style="font-size: 25px;">Cursors:</p></b>
+    A cursor is a pointer that points to a result of a query. PL/SQL has two types of cursors: implicit cursors and explicit cursors. <br>
+<br>
+<b> Implicit cursors</b> <br><br>
+Whenever Oracle executes an SQL statement such as SELECT INTO, INSERT, UPDATE, and DELETE, it automatically creates an  implicit cursor. <br><br>
+<b>Explicit cursors</b> <br><br>
+An explicit cursor is an SELECT statement declared explicitly in the declaration section of the current block or a package specification. <br>
+
+For an explicit cursor, you have control over its execution cycle from OPEN, FETCH, and CLOSE.
+<br>
+<br>
+<b>Syntax </b><br> <br>
+CURSOR cursor_name IS query;<br>
+
+<p><b>Example:</b></p><br>
+
+<img src="../images/Screenshot 2023-04-11 191152.png" height="150" width="250" >
+<br><a href="https://livesql.oracle.com/apex/f?p=590:1000"><input type="button" value="Try it yourself->" style="background-color: blue; color: aliceblue;" ></a><br>
+    
+<br><br>
+
+<b><p style="font-size: 25px;">Procedures:</p></b> <br>
+PL/SQL is a block-structured language that enables developers to combine the power of SQL with procedural statements.
+A stored procedure in PL/SQL is nothing but a series of declarative SQL statements which can be stored in the database catalogue. A procedure can be thought of as a function or a method. They can be invoked through triggers, other procedures, or applications on Java, PHP etc. <br>
+All the statements of a block are passed to Oracle engine all at once which increases processing speed and decreases the traffic.
+ <br>
+<br>
+<b>Syntax </b><br> <br>
+CREATE [OR REPLACE ] PROCEDURE procedure_name (parameter_list)     
+IS<br>
+<p><b>Example:</b></p><br>
+
+<img src="../images/Screenshot 2023-04-11 192027.png" height="150" width="250" >
+<br><a href="https://livesql.oracle.com/apex/f?p=590:1000"><input type="button" value="Try it yourself->" style="background-color: blue; color: aliceblue;" ></a><br>
+</body></html>

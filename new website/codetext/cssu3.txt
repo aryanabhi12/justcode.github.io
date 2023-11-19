@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+<style>
+    input{
+        color: gold;
+        background-color: blueviolet;
+        padding: 15px;
+        font-size: 30px;
+        border: 2px solid gold;
+    }
+    input:hover{
+        color: black;
+        background-color: gold;
+    }
+</style>
+</head>
+<body>
+    <input type="button" value="Download"> 
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body><br><br>
+    <header style="font-weight: 800; font-size: 30px;">HTML CSS Course</header>
+    <p style="font-size: x-large; color: rgb(74, 73, 73);">Begnier to Pro</p>
+    <p>In this course,we'll learn the skills <br>you need to become a developer.</p>
+<input type="button" value="Get start" style="background-color: rgb(0, 80, 0);color: aliceblue; font-size: x-large;">
+</body>
+</html>

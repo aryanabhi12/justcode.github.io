@@ -1,0 +1,144 @@
+<html lang="en">
+<head><link rel="stylesheet" href="first.css">
+   <style>
+       body{
+           
+           background: linear-gradient(90deg, rgba(255,208,65,1) 21%, rgba(244,255,47,1) 100%);
+       }
+   </style>
+</head>
+
+<body>
+    <header>
+        <img src="../images/logoo.jpg" height="100"width="120" class="logo" >
+        JUST CODE.COM
+    </header>
+    <nav style="background-color: darkblue;">
+      <b>  <a href="index.html">HOME</a>
+        <a href="about.html" >ABOUT US</a>
+        <a href="contact.html">CONTACT US</a>
+        <a href="program.html">PROGRAMS</a>
+        <a href="dbms.html">D.B.M.S</a></b>
+    </nav><style>
+        
+    </style>    
+    <b><p style="font-size: 25px;">Conditional statements:</p></b>
+    Conditional selection statements, which run different statements for different data values.
+<br><br>
+<b><p style="font-size: 25px;">Some of conditional statements are:-</p></b>
+<br>
+<b><p style="font-size: 25px;">1 if then: </p></b>
+The IF THEN statement either runs or skips a sequence of one or more statements, depending on a condition. <br><br>
+<b>Syntax </b><br> <br>
+IF condition THEN <br>
+  statements <br>
+END IF; <br>
+
+<p><b>Example:</b></p><br>
+
+<img src="../images/Screenshot 2023-04-11 180454.png" height="150" width="250" >
+<br><a href="https://livesql.oracle.com/apex/f?p=590:1000"><input type="button" value="Try it yourself->" style="background-color: blue; color: aliceblue;" ></a><br>
+    
+<br><br>
+<b><p style="font-size: 25px;">2 if then Else: </p></b>
+If the value of condition is true, the statements run; otherwise, the else_statements run. <br><br>
+
+
+<b>Syntax </b><br> <br>
+IF condition THEN <br>
+  statements <br>
+ELSE <br>
+  else_statements <br>
+END IF;
+ <br>
+
+<p><b>Example:</b></p><br>
+
+<img src="../images/Screenshot 2023-04-11 180517.png" height="150" width="250" >
+<br><a href="https://livesql.oracle.com/apex/f?p=590:1000"><input type="button" value="Try it yourself->" style="background-color: blue; color: aliceblue;" ></a>
+
+<br><br>
+<b><p style="font-size: 25px;">3 if then Elseif: </p></b>
+The IF THEN ELSIF statement runs the first statements for which condition is true. Remaining conditions are not evaluated. If no condition is true, the else_statements run, if they exist; otherwise, the IF THEN ELSIF statement does nothing. <br><br>
+<b>Syntax </b><br> <br>
+IF condition_1 THEN <br>
+  statements_1 <br>
+ELSIF condition_2 THEN <br>
+  statements_2 <br>
+[ ELSIF condition_3 THEN <br>
+    statements_3
+]... <br>
+[ ELSE <br>
+    else_statements
+] <br>
+END IF;
+
+ <br>
+
+<p><b>Example:</b></p><br>
+
+<img src="../images/Screenshot 2023-04-11 180618.png" height="150" width="250" >
+<br><a href="https://livesql.oracle.com/apex/f?p=590:1000"><input type="button" value="Try it yourself->" style="background-color: blue; color: aliceblue;" ></a><br>
+    
+<b><p style="font-size: 25px;">Loops/iterative statements:</p></b>
+The iterative statements are used to repeat the execution of certain statements multiple times. This is achieved with the help of loops. Loops in PL/SQL provide a mechanism to perform specific tasks multiple times without having to write them multiple times. 
+<br><br>
+<b><p style="font-size: 25px;">Some of Iterative statements are:-</p></b>
+<br>
+<b><p style="font-size: 25px;">1 Basic loop: </p></b>
+The basic loop will execute the statement provided a certain number of times until the exit condition is met. It is necessary to have an EXIT statement so that the loop does not run indefinitely. There is also an increment statement that can be used to increase/decrease the changing variable in the loop. <br>
+
+<b>Syntax </b><br> <br>
+LOOP
+<br>
+Statements;
+<br>
+[increment_statement]
+<br>
+EXIT condition;
+<br>
+END LOOP; <br>
+
+<p><b>Example:</b></p><br>
+
+<img src="../images/Screenshot 2023-04-11 183744.png" height="150" width="250" >
+<br><a href="https://livesql.oracle.com/apex/f?p=590:1000"><input type="button" value="Try it yourself->" style="background-color: blue; color: aliceblue;" ></a><br>
+
+<br><br>
+<b><p style="font-size: 25px;">2 For loop: </p></b>
+The for loop in PL/SQL provides implicit variable declaration, implicit incrementation of the variable by one, and implicit exit also. In the FOR loop, we do not have to declare the variable as we did in the previous two types of loop. While writing the loop statement, the variable is declared implicitly. The range consists of the starting value, from where the value of the iterating variable begins, and the end value, which determines the last value which the variable can have. In each loop, the variable is incremented by one. <br>
+
+
+<b>Syntax </b><br> <br>
+FOR variable IN range LOOP
+<br>
+Statements;
+<br>
+END LOOP; <br>
+
+<p><b>Example:</b></p><br>
+
+<img src="../images/Screenshot 2023-04-11 183840.png" height="150" width="250" >
+<br><a href="https://livesql.oracle.com/apex/f?p=590:1000"><input type="button" value="Try it yourself->" style="background-color: blue; color: aliceblue;" ></a><br>
+
+<br><br>
+<b><p style="font-size: 25px;">3 While loop: </p></b>
+The WHILE loop in PL/SQL  is used to check the entry condition, and if the entry condition is true, only then is the loop executed. The basic loop executes at least once, whereas the WHILE loop will first check the condition provided in the boolean expression. If the condition is false, the control does not enter the loop. <br>
+
+<b>Syntax </b><br> <br>
+WHILE (boolean_expression) LOOP
+<br>
+statements ;
+<br>
+[increment_statement]
+<br>
+END LOOP; <br>
+
+<p><b>Example:</b></p><br>
+
+<img src="../images/Screenshot 2023-04-11 183916.png" height="150" width="250" >
+<br><a href="https://livesql.oracle.com/apex/f?p=590:1000"><input type="button" value="Try it yourself->" style="background-color: blue; color: aliceblue;" ></a><br>
+
+<br><br>
+</body>
+</html>

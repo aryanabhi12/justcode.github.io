@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ques_js2</title>
+</head>
+<body>
+    <h1>Area of Triangle</h1>
+    Side1:
+    <input type="text" id="side1"><br><br>
+    Side2:
+    <input type="text" id="side2"><br><br>
+    Side3:
+    <input type="text" id="side3"><br><br>
+    <input type="button" value="Calculate" onclick="area()"><br><br>
+    Area:
+    <input type="text" id="area">
+</body>
+</html>
+<script>
+    function area(){
+    var a=parseInt(document.getElementById("side1").value);
+    var b=parseInt(document.getElementById("side2").value);
+    var c=parseInt(document.getElementById("side3").value);
+    // By Heron's formula.
+    var s=(a+b+c)/2;
+    document.getElementById("area").value=(s*(s-a)*(s-b)*(s-c))**(1/2); 
+    }
+</script>

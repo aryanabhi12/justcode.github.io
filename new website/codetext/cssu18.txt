@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<style>
+    a{display: inline-block;text-decoration: none;color: black;
+        text-align: center;width: 20%;font-size: larger;font-weight: 600;}
+    nav{margin-left: 17%;}
+    header{font-size: xx-large;font-weight: 700;text-align: center;
+    }
+    img{
+        height: 100%;width: 100%;
+    }
+</style>
+</head>
+<body>
+    <header>
+      * MIRACLE *
+    </header><br>
+    <nav>
+      <b>  <a href="">HOME</a>
+        <a href="" >ABOUT</a>
+        <a href="">COURSES</a>
+        <a href="">CONTACT</a>
+        </b>
+    </nav><br>
+    <img src="../images/font.jpg" alt="">
+</body>
+</html>

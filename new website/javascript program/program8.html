@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ques-js8</title>
+    <script>
+        function getDetails(){
+            var x=parseInt(document.getElementById("num").value);
+            switch(x){
+                case 1: document.getElementById("result").innerText="January with 31 days.";
+                break;
+                case 2: document.getElementById("result").innerText="February with 28 days.";
+                break;
+                case 3: document.getElementById("result").innerText="March with 31 days.";
+                break;
+                case 4: document.getElementById("result").innerText="April with 30 days.";
+                break;
+                case 5: document.getElementById("result").innerText="May with 31 days.";
+                break;
+                case 6: document.getElementById("result").innerText="June with 30 days.";
+                break;
+                case 7: document.getElementById("result").innerText="July with 31 days.";
+                break;
+                case 8: document.getElementById("result").innerText="August  with 31 days.";
+                break;
+                case 9: document.getElementById("result").innerText="September with 30 days.";
+                break;
+                case 10: document.getElementById("result").innerText="October with 31 days.";
+                break;
+                case 11: document.getElementById("result").innerText="November with 30 days.";
+                break;
+                case 12: document.getElementById("result").innerText="December with 31 days.";
+                break;
+                default: document.getElementById("result").innerText="Enter a number between 1 to 12.";
+                break;
+            }
+        }
+    </script>
+</head>
+<body>
+    Enter the Month Number:
+    <input type="text" id="num">
+    <input type="button" value="Get Results" onclick="getDetails()">
+    <br>
+    <p id="result"></p>
+</body>
+</html>

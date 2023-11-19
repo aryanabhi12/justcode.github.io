@@ -1,0 +1,25 @@
+header {
+        
+    background-color:yellow;
+    text-align: center;
+    font-size: 60px;
+    color: darkblue;
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: yellow;
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+    margin: 0.6%;
+    font-size: 20px;
+}
+a:hover{
+    background-color: black;
+}
+body{
+    background-image: url(font.jpg);
+}
+
+

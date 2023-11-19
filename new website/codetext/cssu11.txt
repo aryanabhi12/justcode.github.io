@@ -1,0 +1,79 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question 30</title>
+    <style>
+        .co{
+            color:yellow;
+            padding-left: 2%;
+        }
+        .co1{
+            color:yellow;
+        }
+        center{
+            color:white;
+            font-size: 2rem;
+        }
+        body{
+            background-color: black;
+        }
+        h2{
+            margin-bottom: 0px;
+            font-weight: 100;
+        }
+        .white{
+            color:white;
+            padding-bottom: 3%;
+                position:relative;
+                bottom: 5px;
+            text-align: left;
+            margin-left:52%; 
+            width:25%;
+        }
+        section{
+           display: flex;
+           flex-direction: column;
+        }
+        img{
+            width:30%;
+        }
+    </style>
+</head>
+<body>
+   <center>&middot;Contacts Us&middot;</center>
+   <br><br>
+   <section class="co">
+           <div>
+            <h2>FirstName </h2>
+            <input type="text" name="" id=""  size="30">
+           </div>
+           <div>
+            <h2>Last Name:</h2>
+            <input type="text" name="" id="" size="30">
+           </div>
+            <div>
+               <h2>Email</h2> 
+                <input type="email" name="" id="" size="30">
+            </div>
+          <div>
+            <h2> Feedback</h2>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+          </div>
+   </section>
+   <section  class="white">
+      <h2>WE'RE OPEN</h2>
+     <p class="co1">ALL days: 8am-9pm</p>
+      <h2>LOCATIONS</h2>
+     <p class="co1">Bengaluru| Delhi NCR | Hyderabad</p>
+      <p>Help:help@hotandcrispysamosa.co.in</p>
+      <p>Contact: +91 88888888</p>
+      <h2>Follow Us</h2>
+      <br>
+      <img src="../images/fb.jpg">
+   </section>
+   
+</body>
+</html>

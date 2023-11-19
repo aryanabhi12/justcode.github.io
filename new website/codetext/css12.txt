@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body><br><br><br>
+    <header style="text-align: center;"> <b>Shopping for your business?<b>
+        <br><p style="color: grey;">See how Apple at work can help.
+            <br><br><a href="" style="text-decoration: none; color: rgb(13, 54, 167);">Learn more ></a>
+        </p>
+    </header>
+</body>
+</html>

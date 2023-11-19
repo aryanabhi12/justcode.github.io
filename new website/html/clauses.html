@@ -1,0 +1,65 @@
+<html lang="en">
+<head><link rel="stylesheet" href="first.css">
+   <style>
+       body{
+           
+           background: linear-gradient(90deg, rgba(255,208,65,1) 21%, rgba(244,255,47,1) 100%);
+       }
+   </style>
+</head>
+
+<body>
+    <header>
+        <img src="../images/logoo.jpg" height="100"width="120" class="logo" >
+        JUST CODE.COM
+    </header>
+    <nav style="background-color: darkblue;">
+      <b>  <a href="index.html">HOME</a>
+        <a href="about.html" >ABOUT US</a>
+        <a href="contact.html">CONTACT US</a>
+        <a href="program.html">PROGRAMS</a>
+        <a href="dbms.html">D.B.M.S</a></b>
+    </nav><style>
+        
+    </style>    
+    <b><p style="font-size: 25px;">SQL CLAUSES</p></b>
+
+    
+    SQL clause helps us to retrieve a set or bundles of records from the table.<br><br>
+    SQL clause helps us to specify a condition on the columns or the records of a table.<br><br>
+
+    <b style="font-size:20px ;">1.WHERE CLAUSE</b><br><br>
+    
+A WHERE clause in SQL is used with the SELECT query, which is one of the data manipulation language commands. WHERE clauses can be used to limit the number of rows to be displayed in the result set, it generally helps in filtering the records. It returns only those queries which fulfill the specific conditions of the WHERE clause. WHERE clause is used in SELECT, UPDATE, DELETE statement, etc.<br><br>
+    <b style="font-size:20px ;">Syntax:</b><br><br>
+    SELECT * FROM TABLENAME WHERE CONDITION;     <br><br>
+    <b style="font-size:20px ;">Example:</b><br>
+    <img src="../images/Screenshot (89).png" width="500" height="290" ><br><a href="https://livesql.oracle.com/apex/f?p=590:1000"><input type="button" value="Try it yourself->" style="background-color: blue; color: aliceblue;" ></a><br>
+    
+    
+    <b style="font-size:20px ;">2.Group by CLAUSE</b><br><br>
+    
+    The Group By clause is used to arrange similar kinds of records into the groups in the Structured Query Language. The Group by clause in the Structured Query Language is used with Select Statement. Group by clause is placed after the where clause in the SQL statement. The Group By clause is specially used with the aggregate function, i.e., max (), min (), avg (), sum (), count () to group the result based on one or more than one column.<br><br>
+    <b style="font-size:20px ;">Syntax:</b><br><br>
+    SELECT * FROM TABLENAME GROUP BY COLUMNNAME;      <br><br>
+    <b style="font-size:20px ;">Example:</b><br>
+    <img src="../images/Screenshot (90).png" width="500" height="290" ><br><a href="https://livesql.oracle.com/apex/f?p=590:1000"><input type="button" value="Try it yourself->" style="background-color: blue; color: aliceblue;" ></a><br>
+
+    
+    <b style="font-size:20px ;">3.Having CLAUSE</b><br><br>
+    When we need to place any conditions on the table's column, we use the WHERE clause in SQL. But if we want to use any condition on a column in Group By clause at that time, we will use the HAVING clause with the Group By clause for column conditions.<br><br>
+    <b style="font-size:20px ;">Syntax:</b><br><br>
+    TABLENAME GROUP BY COLUMNNAME HAVING CONDITION;      <br><br>
+    <b style="font-size:20px ;">Example:</b><br>
+    <img src="../images/Screenshot (92).png" width="500" height="290" ><br><a href="https://livesql.oracle.com/apex/f?p=590:1000"><input type="button" value="Try it yourself->" style="background-color: blue; color: aliceblue;" ></a><br>
+
+    
+    <b style="font-size:20px ;">4.Order by clause</b><br><br>
+    
+    Whenever we want to sort anything in SQL, we use the ORDER BY clause. The ORDER BY clause in SQL will help us to sort the data based on the specific column of a table. This means that all the data stored in the specific column on which we are executing the ORDER BY clause will be sorted. The corresponding column values will be displayed in the sequence in which we have obtained the values in the earlier step.<br><br>
+
+    As we all know, sorting means either in ASCENDING ORDER or DESCENDING ORDER. In the same way, ORDER BY CLAUSE sorts the data in ascending or descending order as per our requirement. The data will be sorted in ascending order whenever the ASC keyword is used with ORDER by clause, and the DESC keyword will sort the records in descending order.<br><br>
+    <b style="font-size:20px ;">Syntax:</b><br><br>
+    SELECT COLUMN_NAME1, COLUMN_NAME2 FROM TABLE_NAME ORDER BY COLUMNAME;    <br><br>
+    <b style="font-size:20px ;">Example:</b><br>
+    <img src="../images/Screenshot (91).png" width="500" height="290" ><br><a href="https://livesql.oracle.com/apex/f?p=590:1000"><input type="button" value="Try it yourself->" style="background-color: blue; color: aliceblue;" ></a><br>

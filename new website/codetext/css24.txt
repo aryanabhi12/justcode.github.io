@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Document</title>
+<style>
+    div{
+        width: 300px;
+        background-color: gray;
+        border: 15px green;
+        padding: 40px;
+        margin: 20px;
+        height: 200px;
+        border-style: solid;
+    }
+</style>
+</head>
+<body>
+    <div>
+        The text is the content of the box.We had added a 50px padding
+        ,20px margin and a 15px green border. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ad quia officiis non repudiandae voluptates modi autem debitis dignissimos mollitia, laudantium, unde delectus distinctio voluptatum fugiat esse reprehenderit! Dolores, sint? 
+    </div>
+</body>
+</html>

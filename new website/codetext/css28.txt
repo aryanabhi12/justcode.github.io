@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+<style>
+    li{
+        font-size: larger;
+    }
+</style>
+</head>
+<body>
+    <h1>All list style types</h1>
+    <ul type="circle">
+        <li>Circle type</li>
+        <li>tea</li>
+        <li>coca cola</li>
+    </ul>
+    <ul type="disc">
+        <li>Disc type</li>
+        <li>tea</li>
+        <li>coca cola</li>
+    </ul>
+    <ul type="square">
+        <li>Square type</li>
+        <li>tea</li>
+        <li>coca cola</li>
+    </ul>
+    <ol style="list-style-type: armenian;">
+        <li>Armenian type</li>
+        <li>tea</li>
+        <li>coca cola</li>
+    </ol>
+    <ol style="list-style-type: cjk-ideographic;">
+        <li>Cjk-ideographic type</li>
+        <li>tea</li>
+        <li>coca cola</li>
+    </ol>
+    <ol style="list-style-type: decimal;">
+        <li>Decimal type</li>
+        <li>tea</li>
+        <li>coca cola</li>
+    </ol>
+    <ol style="list-style-type: decimal-leading-zero;">
+        <li>Decimal-leading zero type</li>
+        <li>tea</li>
+        <li>coca cola</li>
+    </ol>
+</body>
+</html>
